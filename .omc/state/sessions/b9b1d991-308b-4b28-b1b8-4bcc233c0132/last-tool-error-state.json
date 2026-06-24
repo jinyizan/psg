@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd \\\"H:\\\\내 드라이브\\\\박성규 교수님\\\" && git add -A && git status --short 2>&1 | tail -20\",\"description\":\"Stage all changes\"}",
+  "error": "Exit code 128\nfatal: Unable to create 'H:/내 드라이브/박성규 교수님/.git/index.lock': File exists.\n\nAnother git process seems to be running in this repository, or the lock file may be stale",
+  "timestamp": "2026-06-24T16:02:16.893Z",
+  "retry_count": 1
+}

@@ -1,0 +1,247 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1782308108576,
+  "projectRoot": "H:\\내 드라이브\\박성규 교수님",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": ">=22",
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "preact",
+        "version": "10.28.2",
+        "category": "frontend"
+      },
+      {
+        "name": "esbuild",
+        "version": "0.27.2",
+        "category": "build"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": "Node.js 22"
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": "npm test",
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {
+      "quartz": "./quartz/bootstrap-cli.mjs",
+      "docs": "npx quartz build --serve -d docs",
+      "check": "tsc --noEmit && npx prettier . --check",
+      "format": "npx prettier . --write",
+      "test": "tsx --test",
+      "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
+      "install-plugins": "npx tsx ./quartz/plugins/loader/install-plugins.ts",
+      "prebuild": "npm run install-plugins"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "docs"
+    ],
+    "gitBranches": {
+      "defaultBranch": "v5",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "content": {
+      "path": "content",
+      "purpose": null,
+      "fileCount": 11,
+      "lastAccessed": 1782308107757,
+      "keyFiles": [
+        "index.md",
+        "자가치료-고관절-골반.md",
+        "자가치료-골반기저근-복압.md",
+        "자가치료-목통증-거북목.md",
+        "자가치료-발-발목-족저근막.md"
+      ]
+    },
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 11,
+      "lastAccessed": 1782308107764,
+      "keyFiles": [
+        "Base.base",
+        "Canvas.canvas",
+        "community.md",
+        "configuration.md",
+        "hosting.md"
+      ]
+    },
+    "quartz": {
+      "path": "quartz",
+      "purpose": null,
+      "fileCount": 5,
+      "lastAccessed": 1782308107771,
+      "keyFiles": [
+        "bootstrap-cli.mjs",
+        "bootstrap-worker.mjs",
+        "build.ts",
+        "cfg.ts",
+        "worker.ts"
+      ]
+    },
+    "psg": {
+      "path": "psg",
+      "purpose": null,
+      "fileCount": 18,
+      "lastAccessed": 1782308107796,
+      "keyFiles": [
+        "CODE_OF_CONDUCT.md",
+        "Dockerfile",
+        "LICENSE.txt",
+        "README.md",
+        "globals.d.ts"
+      ]
+    },
+    "quartz\\components": {
+      "path": "quartz\\components",
+      "purpose": "UI components",
+      "fileCount": 16,
+      "lastAccessed": 1782308107825,
+      "keyFiles": [
+        "Body.tsx",
+        "ConditionalRender.tsx",
+        "Date.tsx"
+      ]
+    },
+    "quartz\\static": {
+      "path": "quartz\\static",
+      "purpose": "Static files",
+      "fileCount": 2,
+      "lastAccessed": 1782308107829,
+      "keyFiles": [
+        "icon.png",
+        "og-image.png"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "content\\index.md",
+      "accessCount": 4,
+      "lastAccessed": 1782308992067,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 2,
+      "lastAccessed": 1782308794310,
+      "type": "directory"
+    },
+    {
+      "path": "content\\자가치료-허리디스크-척추.md",
+      "accessCount": 1,
+      "lastAccessed": 1782308409251,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\KIMYEC~1\\AppData\\Local\\Temp\\playlist_info.txt",
+      "accessCount": 1,
+      "lastAccessed": 1782308440425,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\KIMYEC~1\\AppData\\Local\\Temp\\claude\\H----------------\\b9b1d991-308b-4b28-b1b8-4bcc233c0132\\scratchpad\\subs\\4LHS_8iruFk.txt",
+      "accessCount": 1,
+      "lastAccessed": 1782308504871,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\KIMYEC~1\\AppData\\Local\\Temp\\claude\\H----------------\\b9b1d991-308b-4b28-b1b8-4bcc233c0132\\scratchpad\\subs\\HfeUlmJraPo.txt",
+      "accessCount": 1,
+      "lastAccessed": 1782308505671,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\KIMYEC~1\\AppData\\Local\\Temp\\claude\\H----------------\\b9b1d991-308b-4b28-b1b8-4bcc233c0132\\scratchpad\\subs\\646_Ow2B9Hw.txt",
+      "accessCount": 1,
+      "lastAccessed": 1782308506627,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\KIMYEC~1\\AppData\\Local\\Temp\\claude\\H----------------\\b9b1d991-308b-4b28-b1b8-4bcc233c0132\\scratchpad\\subs\\LOcsG25mpJc.txt",
+      "accessCount": 1,
+      "lastAccessed": 1782308506941,
+      "type": "file"
+    },
+    {
+      "path": "content\\해부학-척추.md",
+      "accessCount": 1,
+      "lastAccessed": 1782308603148,
+      "type": "file"
+    },
+    {
+      "path": "content\\해부학-엉덩관절-골반.md",
+      "accessCount": 1,
+      "lastAccessed": 1782308653508,
+      "type": "file"
+    },
+    {
+      "path": "content\\해부학-무릎-발.md",
+      "accessCount": 1,
+      "lastAccessed": 1782308720923,
+      "type": "file"
+    },
+    {
+      "path": "content\\해부학-팔꿈치-손목.md",
+      "accessCount": 1,
+      "lastAccessed": 1782308773718,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\KIMYEC~1\\AppData\\Local\\Temp\\vid_meta.json",
+      "accessCount": 1,
+      "lastAccessed": 1782308873182,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\KIMYEC~1\\AppData\\Local\\Temp\\claude\\H----------------\\b9b1d991-308b-4b28-b1b8-4bcc233c0132\\scratchpad\\subs\\mVDj4msIMCM.txt",
+      "accessCount": 1,
+      "lastAccessed": 1782308899049,
+      "type": "file"
+    },
+    {
+      "path": "content\\자가치료-목어깨-긴장이완.md",
+      "accessCount": 1,
+      "lastAccessed": 1782308982203,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\KIMYEC~1\\AppData\\Local\\Temp\\claude\\H----------------\\b9b1d991-308b-4b28-b1b8-4bcc233c0132\\tasks\\b1fbn9g4d.output",
+      "accessCount": 1,
+      "lastAccessed": 1782311444264,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
