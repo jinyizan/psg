@@ -1,7 +1,7 @@
 {
   "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"cd \\\"H:\\\\내 드라이브\\\\박성규 교수님\\\" && git add -A && git status --short 2>&1 | tail -20\",\"description\":\"Stage all changes\"}",
-  "error": "Exit code 128\nfatal: Unable to create 'H:/내 드라이브/박성규 교수님/.git/index.lock': File exists.\n\nAnother git process seems to be running in this repository, or the lock file may be stale",
-  "timestamp": "2026-06-24T16:02:16.893Z",
-  "retry_count": 1
+  "tool_input_preview": "{\"command\":\"cd \\\"H:\\\\내 드라이브\\\\박성규 교수님\\\" && echo \\\".omc/state/\\\" >> .git/info/exclude && git checkout -- .omc/ && git stash pop 2>/dev/null; git fetch origin v5 && git merge origin/v5 --no-edit 2>&1\",\"t...",
+  "error": "Exit code 128\nOn branch v5\nYour branch and 'origin/v5' have diverged,\nand have 1877 and 11 different commits each, respectively.\n  (use \"git pull\" if you want to integrate the remote branch with yours)\n\nChanges not staged for commit:\n  (use \"git add <file>...\" to update what will be committed)\n  (use \"git restore <file>...\" to discard changes in working directory)\n\tmodified:   .omc/state/agent-replay-b9b1d991-308b-4b28-b1b8-4bcc233c0132.jsonl\n\tmodified:   .omc/state/hud-stdin-cache.json\n\tmodifie...",
+  "timestamp": "2026-06-24T16:07:19.363Z",
+  "retry_count": 3
 }
